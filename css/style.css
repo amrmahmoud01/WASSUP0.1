@@ -1,0 +1,51 @@
+.navbar-brand {
+  color: #ffeb3b;
+  font-size: 45px;
+}
+
+nav {
+  background-color: #333333;
+  font-family: Lexend;
+  height: 150px;
+}
+
+ul a.nav-link {
+  font-size: 30px;
+}
+
+.navbar-collapse {
+  flex-grow: unset;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #ffeb3b;
+}
+
+.w-70 {
+  width: 65%;
+}
+
+/* .highlight {
+  color: #ffeb3b;
+  font-style: italic;
+  background-color: #333333;
+  width: fit-content;
+} */
+
+.hero {
+  height: 400px;
+}
+
+.btn {
+background-color: #3F51B5;
+  font-family: Lexend;
+  color: #ffeb3b;
+  font-size: 30px;
+  padding: 5px 102.5px;
+}
+
+.btn:hover{
+    background-color: #3F51B5;
+    color: #ffeb3b;
+}
