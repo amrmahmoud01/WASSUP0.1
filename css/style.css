@@ -33,19 +33,47 @@ ul a.nav-link {
   width: fit-content;
 } */
 
-.hero {
+/* .hero {
   height: 400px;
-}
+} */
 
 .btn {
-background-color: #3F51B5;
+  background-color: #3f51b5;
   font-family: Lexend;
   color: #ffeb3b;
   font-size: 30px;
   padding: 5px 102.5px;
 }
 
-.btn:hover{
-    background-color: #3F51B5;
-    color: #ffeb3b;
+.btn:hover {
+  background-color: #3f51b5;
+  color: #ffeb3b;
+}
+
+/* .carousel {
+  position: relative;
+}
+.carousel img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.navbar-toggler-icon {
+  background-image: url("../assets/icons8-hamburger-button-50.png");
+}
+
+.navbar-toggler {
+  box-shadow: none;
+  border: none;
+}
+
+.navbar-collapse {
+  background-color: #333333;
+}
+
+
+li > a{
+  width: fit-content;
 }
