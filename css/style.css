@@ -3,6 +3,9 @@
   font-size: 45px;
 }
 
+:root{
+  overflow:  ;
+}
 nav {
   background-color: #333333;
   font-family: Lexend;
@@ -98,7 +101,7 @@ li > a {
   min-width: 200px;
 }
 
-span {
+span, h2 {
   font-family: Lexend;
   font-weight: bold;
 }
@@ -110,9 +113,42 @@ span {
 
 .search-icon {
   display: inline-block;
-  transform: translateY(2px);
+  /* transform: translateY(2px); */
 }
 
-label{
+label {
   transform: translateX(20px);
+}
+
+/* .search:focus label {
+} */
+
+.search-wrapper:focus-within label {
+  opacity: 0;
+}
+
+.form-control:focus {
+  background-color: #d9d9d9;
+  border-color: #3f51b5;
+  /* box-shadow: 0 0 0 0.25rem rgba(255, 235, 59, 1); */
+}
+
+.search-wrapper{
+  width: min-content;
+}
+
+#filtersPanel{
+  background-color: #333333;
+}
+
+.product-card{
+  background-color: #d9d9d9;
+}
+
+.product-name{
+  font-size: 16px;
+}
+
+a .product-name{
+
 }
